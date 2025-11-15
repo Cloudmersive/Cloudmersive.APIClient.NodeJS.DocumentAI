@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./ExtractedTextPage'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.ExtractTextResponse = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.ExtractedTextPage);
+    root.CloudmersiveDocumentaiApiClient.ExtractTextResponse = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.ExtractedTextPage);
   }
 }(this, function(ApiClient, ExtractedTextPage) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The ExtractTextResponse model module.
    * @module model/ExtractTextResponse
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

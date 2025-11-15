@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.SummarizeDocumentResponse();
+    instance = new CloudmersiveDocumentaiApiClient.SummarizeDocumentResponse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('SummarizeDocumentResponse', function() {
     it('should create an instance of SummarizeDocumentResponse', function() {
       // uncomment below and update the code to test SummarizeDocumentResponse
-      //var instane = new CloudmersiveDocumentaiapiClient.SummarizeDocumentResponse();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.SummarizeDocumentResponse);
+      //var instane = new CloudmersiveDocumentaiApiClient.SummarizeDocumentResponse();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.SummarizeDocumentResponse);
     });
 
     it('should have the property successful (base name: "Successful")', function() {
       // uncomment below and update the code to test the property successful
-      //var instane = new CloudmersiveDocumentaiapiClient.SummarizeDocumentResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.SummarizeDocumentResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property documentSummaryText (base name: "DocumentSummaryText")', function() {
       // uncomment below and update the code to test the property documentSummaryText
-      //var instane = new CloudmersiveDocumentaiapiClient.SummarizeDocumentResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.SummarizeDocumentResponse();
       //expect(instance).to.be();
     });
 

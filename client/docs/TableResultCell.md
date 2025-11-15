@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.TableResultCell
+# CloudmersiveDocumentaiApiClient.TableResultCell
 
 ## Properties
 Name | Type | Description | Notes

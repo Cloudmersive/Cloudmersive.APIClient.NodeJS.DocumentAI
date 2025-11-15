@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest
+# CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest
 
 ## Properties
 Name | Type | Description | Notes

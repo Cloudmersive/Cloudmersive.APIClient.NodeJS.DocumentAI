@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.AnalyzeApi
+# CloudmersiveDocumentaiApiClient.AnalyzeApi
 
 All URIs are relative to *https://localhost*
 
@@ -17,8 +17,8 @@ Enforce Policies to a Document to allow or block it using Advanced AI.  Input do
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -26,10 +26,10 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.AnalyzeApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.AnalyzeApi();
 
 var opts = { 
-  'body': new CloudmersiveDocumentaiapiClient.DocumentPolicyRequest() // DocumentPolicyRequest | Input request, including document and policy rules
+  'body': new CloudmersiveDocumentaiApiClient.DocumentPolicyRequest() // DocumentPolicyRequest | Input request, including document and policy rules
 };
 
 var callback = function(error, data, response) {

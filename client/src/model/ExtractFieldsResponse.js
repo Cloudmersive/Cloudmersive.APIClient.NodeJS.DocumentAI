@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./FieldValue'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.ExtractFieldsResponse = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.FieldValue);
+    root.CloudmersiveDocumentaiApiClient.ExtractFieldsResponse = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.FieldValue);
   }
 }(this, function(ApiClient, FieldValue) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The ExtractFieldsResponse model module.
    * @module model/ExtractFieldsResponse
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

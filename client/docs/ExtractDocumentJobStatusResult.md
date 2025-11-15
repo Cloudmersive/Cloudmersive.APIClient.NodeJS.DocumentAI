@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult
+# CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult
 
 ## Properties
 Name | Type | Description | Notes

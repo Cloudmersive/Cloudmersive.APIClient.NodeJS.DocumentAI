@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.ExtractApi
+# CloudmersiveDocumentaiApiClient.ExtractApi
 
 All URIs are relative to *https://localhost*
 
@@ -25,8 +25,8 @@ Extract all Fields and Tables, comprised of rows and columns of data, from a doc
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -34,7 +34,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
@@ -81,8 +81,8 @@ Extract all barcodes from a document using AI.  Input document formats supported
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -90,7 +90,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
@@ -137,8 +137,8 @@ Extract Classification or Category (e.g. Invoice, Receipt, Tax Form, or Form 104
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -146,7 +146,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'categories': "categories_example", // String | Desired classification to extract
@@ -195,8 +195,8 @@ Extract Classification or Category (e.g. Invoice, Receipt, Tax Form, or Form 104
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -204,11 +204,11 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
-  'body': new CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest() // AdvancedExtractClassificationRequest | Input request to perform the classification on
+  'body': new CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest() // AdvancedExtractClassificationRequest | Input request to perform the classification on
 };
 
 var callback = function(error, data, response) {
@@ -251,8 +251,8 @@ Extract Field Values (e.g. Invoice Number, Invoice Date, Business Card Phone Num
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -260,7 +260,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'fieldNames': "fieldNames_example", // String | Desired fields to extract, comma separated
@@ -309,8 +309,8 @@ Extract Field Values (e.g. Invoice Number, Invoice Date, Business Card Phone Num
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -318,11 +318,11 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
-  'body': new CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest() // AdvancedExtractFieldsRequest | Input request, including document file as byte array, and information on which fields to extract
+  'body': new CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest() // AdvancedExtractFieldsRequest | Input request, including document file as byte array, and information on which fields to extract
 };
 
 var callback = function(error, data, response) {
@@ -365,8 +365,8 @@ Creates a 1 paragraph summary of the input document using Artificial Intelligenc
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -374,7 +374,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
@@ -421,8 +421,8 @@ Extract Tables, comprised of rows and columns of data, from a document using AI.
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -430,7 +430,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
@@ -477,8 +477,8 @@ Extract raw text from a document using AI.  Input document formats supported inc
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -486,7 +486,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.ExtractApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.ExtractApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images

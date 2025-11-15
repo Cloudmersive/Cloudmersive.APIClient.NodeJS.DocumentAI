@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.TableResult();
+    instance = new CloudmersiveDocumentaiApiClient.TableResult();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('TableResult', function() {
     it('should create an instance of TableResult', function() {
       // uncomment below and update the code to test TableResult
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResult();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.TableResult);
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResult();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.TableResult);
     });
 
     it('should have the property title (base name: "Title")', function() {
       // uncomment below and update the code to test the property title
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResult();
       //expect(instance).to.be();
     });
 
     it('should have the property rows (base name: "Rows")', function() {
       // uncomment below and update the code to test the property rows
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResult();
       //expect(instance).to.be();
     });
 

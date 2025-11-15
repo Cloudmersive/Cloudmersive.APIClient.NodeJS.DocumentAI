@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.DocumentCategories
+# CloudmersiveDocumentaiApiClient.DocumentCategories
 
 ## Properties
 Name | Type | Description | Notes

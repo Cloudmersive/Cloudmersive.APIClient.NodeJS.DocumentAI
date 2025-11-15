@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.ExtractFieldsResponse
+# CloudmersiveDocumentaiApiClient.ExtractFieldsResponse
 
 ## Properties
 Name | Type | Description | Notes

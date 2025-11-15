@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.DocumentCategories();
+    instance = new CloudmersiveDocumentaiApiClient.DocumentCategories();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('DocumentCategories', function() {
     it('should create an instance of DocumentCategories', function() {
       // uncomment below and update the code to test DocumentCategories
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentCategories();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.DocumentCategories);
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentCategories();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.DocumentCategories);
     });
 
     it('should have the property categoryName (base name: "CategoryName")', function() {
       // uncomment below and update the code to test the property categoryName
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentCategories();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentCategories();
       //expect(instance).to.be();
     });
 
     it('should have the property categoryDescription (base name: "CategoryDescription")', function() {
       // uncomment below and update the code to test the property categoryDescription
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentCategories();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentCategories();
       //expect(instance).to.be();
     });
 

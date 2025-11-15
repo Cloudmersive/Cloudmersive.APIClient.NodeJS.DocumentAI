@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+    instance = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,55 +52,55 @@
   describe('ExtractDocumentJobStatusResult', function() {
     it('should create an instance of ExtractDocumentJobStatusResult', function() {
       // uncomment below and update the code to test ExtractDocumentJobStatusResult
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult);
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult);
     });
 
     it('should have the property successful (base name: "Successful")', function() {
       // uncomment below and update the code to test the property successful
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 
     it('should have the property asyncJobStatus (base name: "AsyncJobStatus")', function() {
       // uncomment below and update the code to test the property asyncJobStatus
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 
     it('should have the property asyncJobID (base name: "AsyncJobID")', function() {
       // uncomment below and update the code to test the property asyncJobID
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 
     it('should have the property extractTextResult (base name: "ExtractTextResult")', function() {
       // uncomment below and update the code to test the property extractTextResult
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 
     it('should have the property extractFieldsAndTablesResult (base name: "ExtractFieldsAndTablesResult")', function() {
       // uncomment below and update the code to test the property extractFieldsAndTablesResult
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 
     it('should have the property extractFieldsResult (base name: "ExtractFieldsResult")', function() {
       // uncomment below and update the code to test the property extractFieldsResult
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 
     it('should have the property extractClassificationResult (base name: "ExtractClassificationResult")', function() {
       // uncomment below and update the code to test the property extractClassificationResult
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 
     it('should have the property errorMessage (base name: "ErrorMessage")', function() {
       // uncomment below and update the code to test the property errorMessage
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult();
       //expect(instance).to.be();
     });
 

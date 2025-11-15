@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.TableResultRow();
+    instance = new CloudmersiveDocumentaiApiClient.TableResultRow();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,13 +52,13 @@
   describe('TableResultRow', function() {
     it('should create an instance of TableResultRow', function() {
       // uncomment below and update the code to test TableResultRow
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResultRow();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.TableResultRow);
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResultRow();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.TableResultRow);
     });
 
     it('should have the property cells (base name: "Cells")', function() {
       // uncomment below and update the code to test the property cells
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResultRow();
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResultRow();
       //expect(instance).to.be();
     });
 

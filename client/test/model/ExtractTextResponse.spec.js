@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.ExtractTextResponse();
+    instance = new CloudmersiveDocumentaiApiClient.ExtractTextResponse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('ExtractTextResponse', function() {
     it('should create an instance of ExtractTextResponse', function() {
       // uncomment below and update the code to test ExtractTextResponse
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractTextResponse();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.ExtractTextResponse);
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractTextResponse();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.ExtractTextResponse);
     });
 
     it('should have the property successful (base name: "Successful")', function() {
       // uncomment below and update the code to test the property successful
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractTextResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractTextResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property pageResults (base name: "PageResults")', function() {
       // uncomment below and update the code to test the property pageResults
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractTextResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractTextResponse();
       //expect(instance).to.be();
     });
 

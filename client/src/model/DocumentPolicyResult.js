@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./PolicyRuleViolation'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.DocumentPolicyResult = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.PolicyRuleViolation);
+    root.CloudmersiveDocumentaiApiClient.DocumentPolicyResult = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.PolicyRuleViolation);
   }
 }(this, function(ApiClient, PolicyRuleViolation) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The DocumentPolicyResult model module.
    * @module model/DocumentPolicyResult
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

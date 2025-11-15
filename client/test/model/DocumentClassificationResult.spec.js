@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.DocumentClassificationResult();
+    instance = new CloudmersiveDocumentaiApiClient.DocumentClassificationResult();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('DocumentClassificationResult', function() {
     it('should create an instance of DocumentClassificationResult', function() {
       // uncomment below and update the code to test DocumentClassificationResult
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentClassificationResult();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.DocumentClassificationResult);
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentClassificationResult();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.DocumentClassificationResult);
     });
 
     it('should have the property successful (base name: "Successful")', function() {
       // uncomment below and update the code to test the property successful
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentClassificationResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentClassificationResult();
       //expect(instance).to.be();
     });
 
     it('should have the property documentCategoryResult (base name: "DocumentCategoryResult")', function() {
       // uncomment below and update the code to test the property documentCategoryResult
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentClassificationResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentClassificationResult();
       //expect(instance).to.be();
     });
 

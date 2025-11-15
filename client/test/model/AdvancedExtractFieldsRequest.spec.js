@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest();
+    instance = new CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,25 +52,25 @@
   describe('AdvancedExtractFieldsRequest', function() {
     it('should create an instance of AdvancedExtractFieldsRequest', function() {
       // uncomment below and update the code to test AdvancedExtractFieldsRequest
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest);
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest);
     });
 
     it('should have the property inputFile (base name: "InputFile")', function() {
       // uncomment below and update the code to test the property inputFile
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property fieldsToExtract (base name: "FieldsToExtract")', function() {
       // uncomment below and update the code to test the property fieldsToExtract
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property maximumPagesProcessed (base name: "MaximumPagesProcessed")', function() {
       // uncomment below and update the code to test the property maximumPagesProcessed
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest();
       //expect(instance).to.be();
     });
 

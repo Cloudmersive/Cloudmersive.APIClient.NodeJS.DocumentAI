@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse();
+    instance = new CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('ExtractBarcodesAiResponse', function() {
     it('should create an instance of ExtractBarcodesAiResponse', function() {
       // uncomment below and update the code to test ExtractBarcodesAiResponse
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse);
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse);
     });
 
     it('should have the property successful (base name: "Successful")', function() {
       // uncomment below and update the code to test the property successful
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property barcodeResults (base name: "BarcodeResults")', function() {
       // uncomment below and update the code to test the property barcodeResults
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse();
       //expect(instance).to.be();
     });
 

@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.DocumentPolicyResult
+# CloudmersiveDocumentaiApiClient.DocumentPolicyResult
 
 ## Properties
 Name | Type | Description | Notes

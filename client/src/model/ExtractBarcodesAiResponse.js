@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./ExtractedBarcodeItem'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.ExtractedBarcodeItem);
+    root.CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.ExtractedBarcodeItem);
   }
 }(this, function(ApiClient, ExtractedBarcodeItem) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The ExtractBarcodesAiResponse model module.
    * @module model/ExtractBarcodesAiResponse
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.FieldValue();
+    instance = new CloudmersiveDocumentaiApiClient.FieldValue();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('FieldValue', function() {
     it('should create an instance of FieldValue', function() {
       // uncomment below and update the code to test FieldValue
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldValue();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.FieldValue);
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldValue();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.FieldValue);
     });
 
     it('should have the property fieldName (base name: "FieldName")', function() {
       // uncomment below and update the code to test the property fieldName
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldValue();
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldValue();
       //expect(instance).to.be();
     });
 
     it('should have the property fieldStringValue (base name: "FieldStringValue")', function() {
       // uncomment below and update the code to test the property fieldStringValue
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldValue();
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldValue();
       //expect(instance).to.be();
     });
 

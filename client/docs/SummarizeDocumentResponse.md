@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.SummarizeDocumentResponse
+# CloudmersiveDocumentaiApiClient.SummarizeDocumentResponse
 
 ## Properties
 Name | Type | Description | Notes

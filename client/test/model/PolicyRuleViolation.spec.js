@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.PolicyRuleViolation();
+    instance = new CloudmersiveDocumentaiApiClient.PolicyRuleViolation();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,25 +52,25 @@
   describe('PolicyRuleViolation', function() {
     it('should create an instance of PolicyRuleViolation', function() {
       // uncomment below and update the code to test PolicyRuleViolation
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRuleViolation();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.PolicyRuleViolation);
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRuleViolation();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.PolicyRuleViolation);
     });
 
     it('should have the property ruleId (base name: "RuleId")', function() {
       // uncomment below and update the code to test the property ruleId
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRuleViolation();
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRuleViolation();
       //expect(instance).to.be();
     });
 
     it('should have the property ruleViolationRiskScore (base name: "RuleViolationRiskScore")', function() {
       // uncomment below and update the code to test the property ruleViolationRiskScore
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRuleViolation();
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRuleViolation();
       //expect(instance).to.be();
     });
 
     it('should have the property ruleViolationRationale (base name: "RuleViolationRationale")', function() {
       // uncomment below and update the code to test the property ruleViolationRationale
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRuleViolation();
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRuleViolation();
       //expect(instance).to.be();
     });
 

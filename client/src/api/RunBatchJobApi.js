@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('../model/AdvancedExtractFieldsRequest'), require('../model/ExtractDocumentBatchJobResult'), require('../model/ExtractDocumentJobStatusResult'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.RunBatchJobApi = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest, root.CloudmersiveDocumentaiapiClient.ExtractDocumentBatchJobResult, root.CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult);
+    root.CloudmersiveDocumentaiApiClient.RunBatchJobApi = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest, root.CloudmersiveDocumentaiApiClient.ExtractDocumentBatchJobResult, root.CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult);
   }
 }(this, function(ApiClient, AdvancedExtractFieldsRequest, ExtractDocumentBatchJobResult, ExtractDocumentJobStatusResult) {
   'use strict';
@@ -33,7 +33,7 @@
   /**
    * RunBatchJob service.
    * @module api/RunBatchJobApi
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

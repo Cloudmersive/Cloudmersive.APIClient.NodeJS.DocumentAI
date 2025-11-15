@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.DocumentPolicyResult();
+    instance = new CloudmersiveDocumentaiApiClient.DocumentPolicyResult();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,25 +52,25 @@
   describe('DocumentPolicyResult', function() {
     it('should create an instance of DocumentPolicyResult', function() {
       // uncomment below and update the code to test DocumentPolicyResult
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentPolicyResult();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.DocumentPolicyResult);
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentPolicyResult();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.DocumentPolicyResult);
     });
 
     it('should have the property cleanResult (base name: "CleanResult")', function() {
       // uncomment below and update the code to test the property cleanResult
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentPolicyResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentPolicyResult();
       //expect(instance).to.be();
     });
 
     it('should have the property riskScore (base name: "RiskScore")', function() {
       // uncomment below and update the code to test the property riskScore
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentPolicyResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentPolicyResult();
       //expect(instance).to.be();
     });
 
     it('should have the property ruleViolations (base name: "RuleViolations")', function() {
       // uncomment below and update the code to test the property ruleViolations
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentPolicyResult();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentPolicyResult();
       //expect(instance).to.be();
     });
 

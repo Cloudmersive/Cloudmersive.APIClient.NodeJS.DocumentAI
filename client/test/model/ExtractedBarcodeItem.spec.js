@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.ExtractedBarcodeItem();
+    instance = new CloudmersiveDocumentaiApiClient.ExtractedBarcodeItem();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('ExtractedBarcodeItem', function() {
     it('should create an instance of ExtractedBarcodeItem', function() {
       // uncomment below and update the code to test ExtractedBarcodeItem
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractedBarcodeItem();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.ExtractedBarcodeItem);
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractedBarcodeItem();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.ExtractedBarcodeItem);
     });
 
     it('should have the property barcodeType (base name: "BarcodeType")', function() {
       // uncomment below and update the code to test the property barcodeType
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractedBarcodeItem();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractedBarcodeItem();
       //expect(instance).to.be();
     });
 
     it('should have the property barcodeValue (base name: "BarcodeValue")', function() {
       // uncomment below and update the code to test the property barcodeValue
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractedBarcodeItem();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractedBarcodeItem();
       //expect(instance).to.be();
     });
 

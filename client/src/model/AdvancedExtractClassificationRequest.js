@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./DocumentCategories'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.DocumentCategories);
+    root.CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.DocumentCategories);
   }
 }(this, function(ApiClient, DocumentCategories) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The AdvancedExtractClassificationRequest model module.
    * @module model/AdvancedExtractClassificationRequest
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

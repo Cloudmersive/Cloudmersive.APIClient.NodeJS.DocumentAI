@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./FieldValue'), require('./TableResult'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.FieldValue, root.CloudmersiveDocumentaiapiClient.TableResult);
+    root.CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.FieldValue, root.CloudmersiveDocumentaiApiClient.TableResult);
   }
 }(this, function(ApiClient, FieldValue, TableResult) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The ExtractFieldsAndTablesResponse model module.
    * @module model/ExtractFieldsAndTablesResponse
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

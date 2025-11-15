@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./DocumentClassificationResult'), require('./ExtractFieldsAndTablesResponse'), require('./ExtractFieldsResponse'), require('./ExtractTextResponse'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.ExtractDocumentJobStatusResult = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.DocumentClassificationResult, root.CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse, root.CloudmersiveDocumentaiapiClient.ExtractFieldsResponse, root.CloudmersiveDocumentaiapiClient.ExtractTextResponse);
+    root.CloudmersiveDocumentaiApiClient.ExtractDocumentJobStatusResult = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.DocumentClassificationResult, root.CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse, root.CloudmersiveDocumentaiApiClient.ExtractFieldsResponse, root.CloudmersiveDocumentaiApiClient.ExtractTextResponse);
   }
 }(this, function(ApiClient, DocumentClassificationResult, ExtractFieldsAndTablesResponse, ExtractFieldsResponse, ExtractTextResponse) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The ExtractDocumentJobStatusResult model module.
    * @module model/ExtractDocumentJobStatusResult
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

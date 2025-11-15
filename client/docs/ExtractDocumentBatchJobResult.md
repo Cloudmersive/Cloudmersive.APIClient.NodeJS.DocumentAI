@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.ExtractDocumentBatchJobResult
+# CloudmersiveDocumentaiApiClient.ExtractDocumentBatchJobResult
 
 ## Properties
 Name | Type | Description | Notes

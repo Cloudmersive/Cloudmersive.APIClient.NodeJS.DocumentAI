@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.PolicyRule();
+    instance = new CloudmersiveDocumentaiApiClient.PolicyRule();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,25 +52,25 @@
   describe('PolicyRule', function() {
     it('should create an instance of PolicyRule', function() {
       // uncomment below and update the code to test PolicyRule
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRule();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.PolicyRule);
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRule();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.PolicyRule);
     });
 
     it('should have the property ruleId (base name: "RuleId")', function() {
       // uncomment below and update the code to test the property ruleId
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRule();
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRule();
       //expect(instance).to.be();
     });
 
     it('should have the property ruleType (base name: "RuleType")', function() {
       // uncomment below and update the code to test the property ruleType
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRule();
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRule();
       //expect(instance).to.be();
     });
 
     it('should have the property ruleDescription (base name: "RuleDescription")', function() {
       // uncomment below and update the code to test the property ruleDescription
-      //var instane = new CloudmersiveDocumentaiapiClient.PolicyRule();
+      //var instane = new CloudmersiveDocumentaiApiClient.PolicyRule();
       //expect(instance).to.be();
     });
 

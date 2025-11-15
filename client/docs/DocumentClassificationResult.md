@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.DocumentClassificationResult
+# CloudmersiveDocumentaiApiClient.DocumentClassificationResult
 
 ## Properties
 Name | Type | Description | Notes

@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.FieldToExtract = factory(root.CloudmersiveDocumentaiapiClient.ApiClient);
+    root.CloudmersiveDocumentaiApiClient.FieldToExtract = factory(root.CloudmersiveDocumentaiApiClient.ApiClient);
   }
 }(this, function(ApiClient) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The FieldToExtract model module.
    * @module model/FieldToExtract
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

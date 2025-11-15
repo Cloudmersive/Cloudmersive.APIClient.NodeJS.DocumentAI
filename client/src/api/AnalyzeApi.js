@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('../model/DocumentPolicyRequest'), require('../model/DocumentPolicyResult'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.AnalyzeApi = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.DocumentPolicyRequest, root.CloudmersiveDocumentaiapiClient.DocumentPolicyResult);
+    root.CloudmersiveDocumentaiApiClient.AnalyzeApi = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.DocumentPolicyRequest, root.CloudmersiveDocumentaiApiClient.DocumentPolicyResult);
   }
 }(this, function(ApiClient, DocumentPolicyRequest, DocumentPolicyResult) {
   'use strict';
@@ -33,7 +33,7 @@
   /**
    * Analyze service.
    * @module api/AnalyzeApi
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

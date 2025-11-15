@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('../model/AdvancedExtractClassificationRequest'), require('../model/AdvancedExtractFieldsRequest'), require('../model/DocumentAdvancedClassificationResult'), require('../model/DocumentClassificationResult'), require('../model/ExtractBarcodesAiResponse'), require('../model/ExtractFieldsAndTablesResponse'), require('../model/ExtractFieldsResponse'), require('../model/ExtractTablesResponse'), require('../model/ExtractTextResponse'), require('../model/SummarizeDocumentResponse'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.ExtractApi = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest, root.CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest, root.CloudmersiveDocumentaiapiClient.DocumentAdvancedClassificationResult, root.CloudmersiveDocumentaiapiClient.DocumentClassificationResult, root.CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse, root.CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse, root.CloudmersiveDocumentaiapiClient.ExtractFieldsResponse, root.CloudmersiveDocumentaiapiClient.ExtractTablesResponse, root.CloudmersiveDocumentaiapiClient.ExtractTextResponse, root.CloudmersiveDocumentaiapiClient.SummarizeDocumentResponse);
+    root.CloudmersiveDocumentaiApiClient.ExtractApi = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest, root.CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest, root.CloudmersiveDocumentaiApiClient.DocumentAdvancedClassificationResult, root.CloudmersiveDocumentaiApiClient.DocumentClassificationResult, root.CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse, root.CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse, root.CloudmersiveDocumentaiApiClient.ExtractFieldsResponse, root.CloudmersiveDocumentaiApiClient.ExtractTablesResponse, root.CloudmersiveDocumentaiApiClient.ExtractTextResponse, root.CloudmersiveDocumentaiApiClient.SummarizeDocumentResponse);
   }
 }(this, function(ApiClient, AdvancedExtractClassificationRequest, AdvancedExtractFieldsRequest, DocumentAdvancedClassificationResult, DocumentClassificationResult, ExtractBarcodesAiResponse, ExtractFieldsAndTablesResponse, ExtractFieldsResponse, ExtractTablesResponse, ExtractTextResponse, SummarizeDocumentResponse) {
   'use strict';
@@ -33,7 +33,7 @@
   /**
    * Extract service.
    * @module api/ExtractApi
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

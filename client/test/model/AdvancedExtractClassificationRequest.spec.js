@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest();
+    instance = new CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,25 +52,25 @@
   describe('AdvancedExtractClassificationRequest', function() {
     it('should create an instance of AdvancedExtractClassificationRequest', function() {
       // uncomment below and update the code to test AdvancedExtractClassificationRequest
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest);
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest);
     });
 
     it('should have the property inputFile (base name: "InputFile")', function() {
       // uncomment below and update the code to test the property inputFile
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property categories (base name: "Categories")', function() {
       // uncomment below and update the code to test the property categories
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property maximumPagesProcessed (base name: "MaximumPagesProcessed")', function() {
       // uncomment below and update the code to test the property maximumPagesProcessed
-      //var instane = new CloudmersiveDocumentaiapiClient.AdvancedExtractClassificationRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.AdvancedExtractClassificationRequest();
       //expect(instance).to.be();
     });
 

@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.DocumentCategories = factory(root.CloudmersiveDocumentaiapiClient.ApiClient);
+    root.CloudmersiveDocumentaiApiClient.DocumentCategories = factory(root.CloudmersiveDocumentaiApiClient.ApiClient);
   }
 }(this, function(ApiClient) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The DocumentCategories model module.
    * @module model/DocumentCategories
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

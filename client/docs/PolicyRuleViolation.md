@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.PolicyRuleViolation
+# CloudmersiveDocumentaiApiClient.PolicyRuleViolation
 
 ## Properties
 Name | Type | Description | Notes

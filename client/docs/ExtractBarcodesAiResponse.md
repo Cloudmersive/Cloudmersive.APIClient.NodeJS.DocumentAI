@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.ExtractBarcodesAiResponse
+# CloudmersiveDocumentaiApiClient.ExtractBarcodesAiResponse
 
 ## Properties
 Name | Type | Description | Notes

@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.TableResultCell();
+    instance = new CloudmersiveDocumentaiApiClient.TableResultCell();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('TableResultCell', function() {
     it('should create an instance of TableResultCell', function() {
       // uncomment below and update the code to test TableResultCell
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResultCell();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.TableResultCell);
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResultCell();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.TableResultCell);
     });
 
     it('should have the property cellHeader (base name: "CellHeader")', function() {
       // uncomment below and update the code to test the property cellHeader
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResultCell();
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResultCell();
       //expect(instance).to.be();
     });
 
     it('should have the property cellValue (base name: "CellValue")', function() {
       // uncomment below and update the code to test the property cellValue
-      //var instane = new CloudmersiveDocumentaiapiClient.TableResultCell();
+      //var instane = new CloudmersiveDocumentaiApiClient.TableResultCell();
       //expect(instance).to.be();
     });
 

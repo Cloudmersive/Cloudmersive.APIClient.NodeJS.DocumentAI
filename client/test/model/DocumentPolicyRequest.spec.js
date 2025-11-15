@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.DocumentPolicyRequest();
+    instance = new CloudmersiveDocumentaiApiClient.DocumentPolicyRequest();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,19 +52,19 @@
   describe('DocumentPolicyRequest', function() {
     it('should create an instance of DocumentPolicyRequest', function() {
       // uncomment below and update the code to test DocumentPolicyRequest
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentPolicyRequest();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.DocumentPolicyRequest);
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentPolicyRequest();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.DocumentPolicyRequest);
     });
 
     it('should have the property inputFile (base name: "InputFile")', function() {
       // uncomment below and update the code to test the property inputFile
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentPolicyRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentPolicyRequest();
       //expect(instance).to.be();
     });
 
     it('should have the property rules (base name: "Rules")', function() {
       // uncomment below and update the code to test the property rules
-      //var instane = new CloudmersiveDocumentaiapiClient.DocumentPolicyRequest();
+      //var instane = new CloudmersiveDocumentaiApiClient.DocumentPolicyRequest();
       //expect(instance).to.be();
     });
 

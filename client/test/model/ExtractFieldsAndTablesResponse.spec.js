@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse();
+    instance = new CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,25 +52,25 @@
   describe('ExtractFieldsAndTablesResponse', function() {
     it('should create an instance of ExtractFieldsAndTablesResponse', function() {
       // uncomment below and update the code to test ExtractFieldsAndTablesResponse
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse);
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse);
     });
 
     it('should have the property successful (base name: "Successful")', function() {
       // uncomment below and update the code to test the property successful
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property fieldResults (base name: "FieldResults")', function() {
       // uncomment below and update the code to test the property fieldResults
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse();
       //expect(instance).to.be();
     });
 
     it('should have the property tableResults (base name: "TableResults")', function() {
       // uncomment below and update the code to test the property tableResults
-      //var instane = new CloudmersiveDocumentaiapiClient.ExtractFieldsAndTablesResponse();
+      //var instane = new CloudmersiveDocumentaiApiClient.ExtractFieldsAndTablesResponse();
       //expect(instance).to.be();
     });
 

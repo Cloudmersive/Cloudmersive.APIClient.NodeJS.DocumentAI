@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.RunBatchJobApi
+# CloudmersiveDocumentaiApiClient.RunBatchJobApi
 
 All URIs are relative to *https://localhost*
 
@@ -21,8 +21,8 @@ Creates an async batch job for processing a large document as an AI batch job.  
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -30,7 +30,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.RunBatchJobApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.RunBatchJobApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
@@ -77,8 +77,8 @@ Creates an async batch job for processing a large document as an AI batch job.  
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -86,7 +86,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.RunBatchJobApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.RunBatchJobApi();
 
 var opts = { 
   'categories': "categories_example", // String | Desired classification to extract
@@ -135,8 +135,8 @@ Creates an async batch job for processing a large document as an AI batch job.  
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -144,11 +144,11 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.RunBatchJobApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.RunBatchJobApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
-  'body': new CloudmersiveDocumentaiapiClient.AdvancedExtractFieldsRequest() // AdvancedExtractFieldsRequest | 
+  'body': new CloudmersiveDocumentaiApiClient.AdvancedExtractFieldsRequest() // AdvancedExtractFieldsRequest | 
 };
 
 var callback = function(error, data, response) {
@@ -191,8 +191,8 @@ Creates an async batch job for processing a large document as an AI batch job.  
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -200,7 +200,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.RunBatchJobApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.RunBatchJobApi();
 
 var opts = { 
   'recognitionMode': "recognitionMode_example", // String | Optional; Recognition mode - Advanced (default) provides the highest accuracy but slower speed, while Normal provides faster response but lower accuracy for low quality images
@@ -247,8 +247,8 @@ Returns the result of the Async Job - possible states can be STARTED or COMPLETE
 
 ### Example
 ```javascript
-var CloudmersiveDocumentaiapiClient = require('cloudmersive-documentaiapi-client');
-var defaultClient = CloudmersiveDocumentaiapiClient.ApiClient.instance;
+var CloudmersiveDocumentaiApiClient = require('cloudmersive-documentai-api-client');
+var defaultClient = CloudmersiveDocumentaiApiClient.ApiClient.instance;
 
 // Configure API key authorization: Apikey
 var Apikey = defaultClient.authentications['Apikey'];
@@ -256,7 +256,7 @@ Apikey.apiKey = 'YOUR API KEY';
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix = 'Token';
 
-var apiInstance = new CloudmersiveDocumentaiapiClient.RunBatchJobApi();
+var apiInstance = new CloudmersiveDocumentaiApiClient.RunBatchJobApi();
 
 var opts = { 
   'asyncJobID': "asyncJobID_example" // String | 

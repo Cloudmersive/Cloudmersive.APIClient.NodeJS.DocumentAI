@@ -22,10 +22,10 @@
     module.exports = factory(require('../ApiClient'), require('./TableResultCell'));
   } else {
     // Browser globals (root is window)
-    if (!root.CloudmersiveDocumentaiapiClient) {
-      root.CloudmersiveDocumentaiapiClient = {};
+    if (!root.CloudmersiveDocumentaiApiClient) {
+      root.CloudmersiveDocumentaiApiClient = {};
     }
-    root.CloudmersiveDocumentaiapiClient.TableResultRow = factory(root.CloudmersiveDocumentaiapiClient.ApiClient, root.CloudmersiveDocumentaiapiClient.TableResultCell);
+    root.CloudmersiveDocumentaiApiClient.TableResultRow = factory(root.CloudmersiveDocumentaiApiClient.ApiClient, root.CloudmersiveDocumentaiApiClient.TableResultCell);
   }
 }(this, function(ApiClient, TableResultCell) {
   'use strict';
@@ -36,7 +36,7 @@
   /**
    * The TableResultRow model module.
    * @module model/TableResultRow
-   * @version 1.3.0
+   * @version 1.3.1
    */
 
   /**

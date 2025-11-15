@@ -1,4 +1,4 @@
-# CloudmersiveDocumentaiapiClient.ExtractedTextPage
+# CloudmersiveDocumentaiApiClient.ExtractedTextPage
 
 ## Properties
 Name | Type | Description | Notes

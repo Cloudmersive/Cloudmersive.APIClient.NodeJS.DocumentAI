@@ -22,15 +22,15 @@
     factory(require('expect.js'), require('../../src/index'));
   } else {
     // Browser globals (root is window)
-    factory(root.expect, root.CloudmersiveDocumentaiapiClient);
+    factory(root.expect, root.CloudmersiveDocumentaiApiClient);
   }
-}(this, function(expect, CloudmersiveDocumentaiapiClient) {
+}(this, function(expect, CloudmersiveDocumentaiApiClient) {
   'use strict';
 
   var instance;
 
   beforeEach(function() {
-    instance = new CloudmersiveDocumentaiapiClient.FieldToExtract();
+    instance = new CloudmersiveDocumentaiApiClient.FieldToExtract();
   });
 
   var getProperty = function(object, getter, property) {
@@ -52,31 +52,31 @@
   describe('FieldToExtract', function() {
     it('should create an instance of FieldToExtract', function() {
       // uncomment below and update the code to test FieldToExtract
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldToExtract();
-      //expect(instance).to.be.a(CloudmersiveDocumentaiapiClient.FieldToExtract);
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldToExtract();
+      //expect(instance).to.be.a(CloudmersiveDocumentaiApiClient.FieldToExtract);
     });
 
     it('should have the property fieldName (base name: "FieldName")', function() {
       // uncomment below and update the code to test the property fieldName
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldToExtract();
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldToExtract();
       //expect(instance).to.be();
     });
 
     it('should have the property fieldOptional (base name: "FieldOptional")', function() {
       // uncomment below and update the code to test the property fieldOptional
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldToExtract();
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldToExtract();
       //expect(instance).to.be();
     });
 
     it('should have the property fieldDescription (base name: "FieldDescription")', function() {
       // uncomment below and update the code to test the property fieldDescription
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldToExtract();
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldToExtract();
       //expect(instance).to.be();
     });
 
     it('should have the property fieldExample (base name: "FieldExample")', function() {
       // uncomment below and update the code to test the property fieldExample
-      //var instane = new CloudmersiveDocumentaiapiClient.FieldToExtract();
+      //var instane = new CloudmersiveDocumentaiApiClient.FieldToExtract();
       //expect(instance).to.be();
     });
 
